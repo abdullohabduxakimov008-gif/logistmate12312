@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, language, onLa
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <nav className="sticky top-2.5 z-50 bg-white border-b border-gray-200 rounded-2xl mx-4 sm:mx-6 lg:mx-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
